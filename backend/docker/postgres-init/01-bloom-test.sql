@@ -1,0 +1,2 @@
+CREATE DATABASE bloom_test;
+GRANT ALL PRIVILEGES ON DATABASE bloom_test TO bloom;

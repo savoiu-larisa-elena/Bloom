@@ -1,0 +1,7 @@
+# Optional: statistical NLP pipeline (spaCy). Install in backend venv, then download a model:
+#   pip install -r requirements-spacy.txt
+#   python -m spacy download en_core_web_sm
+# Enable in Bloom: set BLOOM_ENABLE_SPACY=true
+# Larger / better English: BLOOM_SPACY_MODEL=en_core_web_trf (much slower, needs GPU for comfort)
+
+spacy>=3.7.0,<4

@@ -1,0 +1,8 @@
+# For prepare_hf_dataset.py and train_gec.py (install in backend venv)
+datasets>=2.14.0
+transformers>=4.36.0
+accelerate>=0.25.0
+torch
+sentencepiece
+protobuf>=3.20.0
+tiktoken>=0.5.0

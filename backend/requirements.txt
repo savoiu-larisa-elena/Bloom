@@ -1,0 +1,14 @@
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+psycopg[binary]>=3.1.0
+textstat>=0.7.3
+language-tool-python>=2.8.0
+# Neural grammar (T5 GEC) — first run downloads model weights (~900MB)
+torch>=2.0.0
+transformers>=4.36.0
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+safetensors>=0.4.0
+tiktoken>=0.5.0
+passlib>=1.7.4
+python-jose[cryptography]>=3.3.0

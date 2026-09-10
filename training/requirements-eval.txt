@@ -1,0 +1,9 @@
+# Post-training metrics (install in backend venv)
+-r requirements-train.txt
+scikit-learn>=1.3.0
+sacrebleu>=2.4.0
+rouge-score>=0.1.2
+matplotlib>=3.7.0
+nltk>=3.8.0
+# Optional (slow; use --bertscore):
+bert-score>=0.3.13

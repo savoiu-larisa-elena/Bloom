@@ -1,0 +1,11 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: bloom
+      POSTGRES_PASSWORD: bloom
+      POSTGRES_DB: bloom
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./docker/postgres-init:/docker-entrypoint-initdb.d:ro
