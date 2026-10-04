@@ -106,12 +106,6 @@ The project strengthened my understanding of:
 
 One of the most valuable parts of the project was learning that building an AI application involves much more than the model itself. The surrounding APIs, data persistence, testing, error handling, and user-facing application are equally important in turning an ML experiment into a usable software system.
 
-## 🚀 Running the Project
-
-> Detailed setup instructions will be added as the project is prepared for reproducible local deployment.
-
-The project consists of separate backend, frontend, and ML/training components. Each component requires its respective dependencies and configuration.
-
 ## 📚 About the Project
 
 Bloom was developed as my **Bachelor's Degree Project in Computer Science at Babeș-Bolyai University**.
